@@ -13,7 +13,7 @@ setup(
     license='Affero GPL 3',
     description='pytest plugin to test OpenERP modules',
     long_description=read("README.rst"),
-    version='0.1.1',
+    version='0.1.2',
     author='Leonardo Santagada',
     author_email='santagada@gmail.com',
     url='http://github.com/santagada/pytest-oerp/',

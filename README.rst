@@ -9,7 +9,7 @@ install/update via::
 
 and to run tests type::
 
-    py.test --oerp-server-path=<path to openerp server/bin directory> \
+    py.test --oerp-server-path=<path to openerp server directory> \
             --oerp-db=<db name, default is test>
 
 this will load OpenERP using the config on ``~/.openerp_serverrc`` and create a pool and transaction for the choosen database for the testcases where you receive an ``oerp`` attribute.
